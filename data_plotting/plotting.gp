@@ -29,3 +29,15 @@ unset ylabel
 
 set ylabel 'y-coordinate'
 plot 'data_t_vx_x_vy_y.dat' using 1:5 w l lc 4 lw 4 notitle
+unset multiplot 
+
+set output 'y-x.png'
+unset ylabel
+unset xlabel
+set yrange [0:65]
+set xrange [0:130]
+
+set ylabel 'y-coordinate'
+set xlabel 'x-coordinate'
+
+plot 'data_t_vx_x_vy_y.dat' using 3:5 w l lc 6 lw 4 notitle 
