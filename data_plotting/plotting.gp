@@ -28,4 +28,4 @@ plot 'data_t_vx_x_vy_y.dat' using 1:3 w l lc 3 lw 4 notitle
 unset ylabel
 
 set ylabel 'y-coordinate'
-plot 'data_t_vx_x_vy_y.dat' using 1:2 w l lc 4 lw 4 notitle
+plot 'data_t_vx_x_vy_y.dat' using 1:5 w l lc 4 lw 4 notitle
